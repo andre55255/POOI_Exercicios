@@ -8,13 +8,13 @@ public class Ex9 {
     public static void main(String[] args) {
 
         // Declaração de array 1 e preenchimento com valores aletatorios
-        int vet1[] = { 3,4,3,5,3,6,3,2,5,7,8,2,1,5 };
-        /*
+        int vet1[] = new int[10];
+        
         Random rand = new Random();
 
         for (int i = 0; i < vet1.length; i++) {
             vet1[i] = rand.nextInt(10) + 1;
-        }*/
+        }
 
         // Declaração do array 2 e preenchimento com dados do usuario
         int vet2[] = new int[3];
